@@ -1,0 +1,231 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <head>
+        <css src="css/source/_theme.css" />
+        <css src="css/source/main_css.css" />
+
+<!--                <remove src="css/styles-m.css" />-->
+<!--                <remove src="my-js.js"/>-->
+<!--                <remove src="Magento_Catalog::js/compare.js" />-->
+
+<!--                 Remove external resources-->
+<!--                <remove src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"/>-->
+<!--                <remove src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"/>-->
+<!--                <remove src="http://fonts.googleapis.com/css?family=Montserrat" />-->
+
+
+
+
+
+    </head>
+
+    <body>
+        <referenceBlock name="header.container" remove="true" />
+        <referenceBlock name="page.main.title" remove="true" />
+
+
+        <referenceBlock name="navigation.sections" remove="true"/>
+        <referenceBlock name="report.bugs" remove="true" />
+
+        <referenceContainer name="main.content" htmlTag="main" htmlClass="page-main-full-width" />
+
+
+        <referenceBlock name="footer_links" remove="true"/>
+
+        <!--header.links directory Code/Demo/view/frontend/default.xml -->
+
+        <referenceBlock name="form.subscribe" remove="true" />
+        <referenceBlock name="copyright" remove="true"/>
+        <!--<referenceContainer name="header.panel.wrapper" remove="true" />-->
+<!--        <referenceBlock name="logo">-->
+<!--            <arguments>-->
+<!--                <argument name="logo_file" xsi:type="string">images/logo.png</argument>-->
+<!--                <argument name="logo_img_width" xsi:type="number">189</argument>-->
+<!--                <argument name="logo_img_height" xsi:type="number">64</argument>-->
+
+<!--            </arguments>-->
+<!--        </referenceBlock>-->
+
+        <!--<referenceBlock name="header.container" remove="true" />-->
+
+
+
+
+
+
+        <!--<referenceContainer name="content"> <block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" name="bannerslider.homepage" before="-"> <action method="setBannerId">-->
+            <!--<argument name="banner_id" xsi:type="string">1</argument> </action> </block>-->
+        <!--</referenceContainer>-->
+
+        <!--<referenceContainer name="footer" as="footer" label="Page Footer" htmlTag="div" htmlClass="footer content">-->
+
+            <!--<block class="Magento\Framework\View\Element\Html\Links" name="footer_links-2">-->
+                <!--<arguments>-->
+                    <!--<argument name="css_class" xsi:type="string">footer links</argument>-->
+                <!--</arguments>-->
+                <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="secure-shipping-link">-->
+                    <!--<arguments>-->
+                        <!--<argument name="label" xsi:type="string" translate="true">Office Basics</argument>-->
+                        <!--<argument name="path" xsi:type="string">stationery/office-basics.html</argument>-->
+                    <!--</arguments>-->
+                <!--</block>-->
+                <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="affiliates-link">-->
+                    <!--<arguments>-->
+                        <!--<argument name="label" xsi:type="string" translate="true">Computer</argument>-->
+                        <!--<argument name="path" xsi:type="string">computer.html</argument>-->
+                    <!--</arguments>-->
+                <!--</block>-->
+                <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="group-sales-link">-->
+                    <!--<arguments>-->
+                        <!--<argument name="label" xsi:type="string" translate="true">Appliance</argument>-->
+                        <!--<argument name="path" xsi:type="string">appliance.html</argument>-->
+                    <!--</arguments>-->
+                <!--</block>-->
+            <!--</block>-->
+            <!--<block class="Magento\Framework\View\Element\Html\Links" name="footer_links-3">-->
+                <!--<arguments>-->
+                    <!--<argument name="css_class" xsi:type="string">footer links</argument>-->
+                <!--</arguments>-->
+                <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="wish-link">-->
+                    <!--<arguments>-->
+                        <!--<argument name="label" xsi:type="string" translate="true">Login and Signup </argument>-->
+                        <!--<argument name="path" xsi:type="string">customer/account/login/</argument>-->
+                    <!--</arguments>-->
+                <!--</block>-->
+                <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="track-link">-->
+                    <!--<arguments>-->
+                        <!--<argument name="label" xsi:type="string" translate="true">Contact US</argument>-->
+                        <!--<argument name="path" xsi:type="string">contact/</argument>-->
+                    <!--</arguments>-->
+                <!--</block>-->
+                <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="help-link">-->
+                    <!--<arguments>-->
+                        <!--<argument name="label" xsi:type="string" translate="true">Help</argument>-->
+                        <!--<argument name="path" xsi:type="string">#</argument>-->
+                    <!--</arguments>-->
+                <!--</block>-->
+            <!--</block>-->
+
+            <!--<block class="Magento\Framework\View\Element\Html\Links" name="footer_links-4">-->
+                <!--<arguments>-->
+                    <!--<argument name="css_class" xsi:type="string">footer links</argument>-->
+                <!--</arguments>-->
+                <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="wish-link-2">-->
+                    <!--<arguments>-->
+                        <!--<argument name="label" xsi:type="string" translate="true">Twitter</argument>-->
+                        <!--<argument name="path" xsi:type="string">about-us</argument>-->
+                    <!--</arguments>-->
+                <!--</block>-->
+                <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="track-link-2">-->
+                    <!--<arguments>-->
+                        <!--<argument name="label" xsi:type="string" translate="true">Linkedin</argument>-->
+                        <!--<argument name="path" xsi:type="string">https://www.linkedin.com/company/gemsclip/</argument>-->
+                    <!--</arguments>-->
+                <!--</block>-->
+                <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="help-link-2">-->
+                    <!--<arguments>-->
+
+                        <!--<argument name="label" xsi:type="string" translate="true">Facebook</argument>-->
+                        <!--<argument name="path" xsi:type="string">https://www.facebook.com/gemsclip</argument>-->
+
+                    <!--</arguments>-->
+                <!--</block>-->
+
+
+            <!--</block>-->
+
+
+            <!--<block class="Magento\Framework\View\Element\Html\Links" name="footer_links-5">-->
+                <!--<arguments>-->
+                    <!--<argument name="css_class" xsi:type="string">footer links</argument>-->
+                <!--</arguments>-->
+                <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="wish-link-5">-->
+                    <!--<arguments>-->
+                        <!--<argument name="label" xsi:type="string" translate="true">About</argument>-->
+                        <!--<argument name="path" xsi:type="string">about-us</argument>-->
+                    <!--</arguments>-->
+                <!--</block>-->
+                <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="track-link-5">-->
+                    <!--<arguments>-->
+                        <!--<argument name="label" xsi:type="string" translate="true">Home</argument>-->
+                        <!--<argument name="path" xsi:type="string">home</argument>-->
+                    <!--</arguments>-->
+                <!--</block>-->
+            <!--</block>-->
+        <!--</referenceContainer>-->
+
+        <!--<referenceContainer name="catalog.topnav">-->
+            <!--<block class="Magento\Framework\View\Element\Html\Link\Current" name="gallery.link" template="Magento_Theme::my-link.phtml">-->
+
+            <!--<arguments>-->
+                    <!--<argument name="label" xsi:type="string">Gallery</argument>-->
+                    <!--<argument name="path" xsi:type="string">checkout/cart/</argument>-->
+                <!--</arguments>-->
+            <!--</block>-->
+        <!--</referenceContainer>-->
+
+
+        <!--<referenceContainer name="header-wrapper">-->
+            <!--<block class="Magento\Framework\View\Element\Template" name="customline" template="Magento_Theme::customline.phtml" />-->
+        <!--</referenceContainer>-->
+        <!--<referenceContainer name="page-wrapper">-->
+            <!--<block class="Magento\Framework\View\Element\Template" name="band" template="Magento_Theme::band.phtml" />-->
+        <!--</referenceContainer>-->
+
+        <!--start page-->
+
+
+
+
+        <!--<referenceContainer name="footer">-->
+            <!--<block class="Magento\Framework\View\Element\Template" name="footer-new-new" template="Magento_Theme::footer.phtml"></block>-->
+
+        <!--</referenceContainer>-->
+
+
+<!--        <referenceContainer name="footer">-->
+
+<!--            <block class="Magento\Framework\View\Element\Template" name="footer-two" template="Magento_Theme::footer-two.phtml"></block>-->
+<!--        </referenceContainer>-->
+
+
+        <!--<referenceBlock name="header.links">-->
+            <!--<block class="Demo\Toplink\Block\Link" name="custom-header-link-new">-->
+                <!--<arguments>-->
+                    <!--<argument name="label" xsi:type="string" translate="true">Wishlist</argument>-->
+                    <!--<argument name="path" xsi:type="string" translate="true">wishlist/</argument>-->
+                <!--</arguments>-->
+            <!--</block>-->
+        <!--</referenceBlock>-->
+
+        <!--<referenceBlock name="header.links">-->
+            <!--<block class="Demo\Toplink\Block\Link" name="custom-header-link">-->
+                <!--<arguments>-->
+                    <!--<argument name="label" xsi:type="string" translate="true">Advanced Search</argument>-->
+                    <!--<argument name="path" xsi:type="string" translate="true">catalogsearch/advanced</argument>-->
+                <!--</arguments>-->
+            <!--</block>-->
+        <!--</referenceBlock>-->
+
+
+        <!--<referenceBlock name="header.links">-->
+            <!--<block class="Demo\Toplink\Block\Link" name="custom-header-link-my-products">-->
+                <!--<arguments>-->
+                    <!--<argument name="label" xsi:type="string" translate="true">My Products</argument>-->
+                    <!--<argument name="path" xsi:type="string" translate="true">review/customer/</argument>-->
+                <!--</arguments>-->
+            <!--</block>-->
+        <!--</referenceBlock>-->
+
+
+
+
+
+
+
+
+
+<!--        <remove src="requirejs/require.js"/>-->
+
+    </body>
+</page>

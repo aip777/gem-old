@@ -1,0 +1,39 @@
+<!--<?xml version="1.0"?>-->
+<!--<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">-->
+    <!--<head>-->
+        <!--<css src="css/source/_theme.css" />-->
+        <!--<css src="css/source/band.css" />-->
+        <!--&lt;!&ndash;<css src="css/source/band-images.css" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<css src="css/source/band-two.css" />&ndash;&gt;-->
+
+    <!--</head>-->
+
+
+    <!--<body>-->
+
+
+        <!--<referenceContainer name="main">-->
+            <!--<block class="Magento\Framework\View\Element\Template" name="slider" template="Magento_Theme::slider.phtml"></block>-->
+        <!--</referenceContainer>-->
+
+
+
+        <!--<referenceContainer name="main">-->
+            <!--<block class="Magento\Framework\View\Element\Template" name="band-new" template="Magento_Theme::band.phtml"></block>-->
+        <!--</referenceContainer>-->
+
+        <!--<referenceContainer name="main">-->
+            <!--<block class="Magento\Framework\View\Element\Template" name="band-two" template="Magento_Theme::band-two.phtml"></block>-->
+        <!--</referenceContainer>-->
+
+
+        <!--<referenceContainer name="main">-->
+            <!--<block class="Magento\Framework\View\Element\Template" name="band" template="Magento_Theme::rfq.phtml"></block>-->
+        <!--</referenceContainer>-->
+
+        <!--<referenceContainer name="main">-->
+            <!--<block class="Magento\Framework\View\Element\Template" name="product" template="Magento_Theme::product.phtml"></block>-->
+        <!--</referenceContainer>-->
+
+    <!--</body>-->
+<!--</page>-->

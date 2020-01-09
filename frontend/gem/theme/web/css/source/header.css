@@ -1,0 +1,43 @@
+
+
+.navigation ul {
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    background: black;
+
+}
+
+
+
+.page-header {
+
+    border: 0;
+    margin-bottom: 0;
+    background-color:black;
+
+}
+
+
+
+.page-header .panel.wrapper {
+
+    border-bottom: 0px solid black;
+
+}
+
+
+.navigation, .breadcrumbs, .page-header .header.panel, .header.content, .footer.content, .page-wrapper > .widget, .page-wrapper > .page-bottom, .block.category.event, .top-container, .page-main {
+
+    box-sizing: border-box;
+    max-width: 1280px;
+    width: auto;
+
+}
+
+ 
+
+ 

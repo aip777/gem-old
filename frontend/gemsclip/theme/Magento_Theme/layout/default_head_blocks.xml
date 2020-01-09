@@ -1,0 +1,125 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+<!--&lt;!&ndash;        <link src="Magento_Theme::feo.png" rel="icon" sizes="35x35" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <css src="css/all.css" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <css src="css/bootstrap.css" />&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <css src="css/bootstrap.css.map" />&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <css src="css/bootstrap.min.css" />&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <css src="css/bootstrap.min.css.map" />&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <css src="css/bootstrap.css" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <css src="css/bootstrap-grid.css" />&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <css src="css/bootstrap-grid.css.map" />&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <css src="css/bootstrap-grid.min.css" />&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <css src="css/bootstrap-grid.min.css.map" />&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <css src="css/bootstrap-reboot.css" />&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <css src="css/bootstrap-reboot.css.map" />&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <css src="css/bootstrap-reboot.min.css" />&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <css src="css/bootstrap-reboot.min.css.map" />&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <css src="css/carousel.css" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <css src="css/style.css" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <css src="css/style.scss" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <css src="css/style.css.map" />&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;        <css src="css/custom.css" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <css src="css/custom-two.css" />&ndash;&gt;-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--&lt;!&ndash;        &lt;!&ndash; Custom scripts for this template &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <script src="js/bootstrap.bundle.js"/>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <script src="js/bootstrap.bundle.js.map"/>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <script src="js/bootstrap.bundle.min.js"/>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <script src="js/bootstrap.bundle.min.js.map"/>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <script src="js/bootstrap.js"/>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <script src="js/bootstrap.js.map"/>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <script src="js/bootstrap.min.js"/>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <script src="js/bootstrap.min.js.map"/>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <script src="js/script.js"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <script src="js/custom.js"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <script src="js/custom-one.js"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <script src="js/custom-two.js"/>&ndash;&gt;-->
+
+
+
+<!--            &lt;!&ndash; Required meta tags &ndash;&gt;-->
+<!--            <meta charset="utf-8"/>-->
+<!--            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>-->
+<!--            &lt;!&ndash; Bootstrap CSS &ndash;&gt;-->
+<!--            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"-->
+<!--                  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>-->
+<!--            <link rel="stylesheet" href="css/carousel.css"/>-->
+<!--            &lt;!&ndash;favicon&ndash;&gt;-->
+<!--            <link rel="shortcut icon" href="favicon.ico"/>-->
+<!--            &lt;!&ndash;.favicon&ndash;&gt;-->
+<!--            &lt;!&ndash;font&ndash;&gt;-->
+<!--            <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"-->
+<!--                  rel="stylesheet"/>-->
+<!--            &lt;!&ndash;.font&ndash;&gt;-->
+<!--            &lt;!&ndash;font awesome &ndash;&gt;-->
+<!--            <css src="css/all.css" rel="stylesheet"/>-->
+<!--            &lt;!&ndash;.font awesome &ndash;&gt;-->
+<!--            &lt;!&ndash;common style&ndash;&gt;-->
+<!--&lt;!&ndash;            <css rel="stylesheet" src="css/style.scss"/>&ndash;&gt;-->
+
+
+
+
+
+
+
+
+
+
+<!--            <script src="pub/media/wysiwyg/gemsclip-css/js/custom.js"/>-->
+<!--            <script src="pub/media/wysiwyg/gemsclip-css/js/custom-one.js"/>-->
+<!--            <script src="pub/media/wysiwyg/gemsclip-css/js/custom-two"/>-->
+
+<!--            <script src="pub/media/wysiwyg/gemsclip-css/js/script.js"/>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--         Remove local resources-->
+<!--        <remove src="css/styles-m.css" />-->
+<!--        <remove src="my-js.js"/>-->
+<!--        <remove src="Magento_Catalog::js/compare.js" />-->
+
+<!--         Remove external resources-->
+<!--        <remove src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"/>-->
+<!--        <remove src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"/>-->
+<!--        <remove src="http://fonts.googleapis.com/css?family=Montserrat" />-->
+
+<!--        <remove src="requirejs/require.js"/>-->
+
+<!--        <script src="js/script.js"/>-->
+
+    </head>
+</page>

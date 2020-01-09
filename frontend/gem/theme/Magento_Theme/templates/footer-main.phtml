@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        color: #707070;
+        padding: 3rem 0 0 !important;
+    }
+    footer {
+        padding: 30px 0;
+        background: #f5f5f5;
+        background: url(<?=$block->getViewFileUrl("images/media/footer-bg.png");?>) center;
+        background-size: cover;
+    }
+
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .list-group {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    footer li.list-group-item.active {
+        color: #fff;
+        background: transparent;
+        border: transparent;
+        text-transform: uppercase;
+        padding: 10px 20px;
+    }
+    footer li.list-group-item {
+        padding: 2px 20px;
+        background: transparent;
+        position: relative;
+        display: block;
+        margin-bottom: -1px;
+        border: 0;
+    }
+    footer li.list-group-item a {
+        color: #ccc;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    footer li.list-group-item a:hover{
+        text-decoration: underline;
+    }
+    .list-group-item:last-child {
+        margin-bottom: 0;
+        border-bottom-right-radius: .25rem;
+        border-bottom-left-radius: .25rem;
+    }
+    .text-center {
+        text-align: center!important;
+    }
+    footer .featurette-divider {
+        margin: 20px 0;
+        border-color:#707070;
+    }
+    @media (min-width: 768px){
+        .col-md-4 {
+            -ms-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+        }
+    }
+
+* {
+  box-sizing: border-box;
+
+}
+
+.column-new-add {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 850px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row-new:after {
+    background-image: none !important;
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+</style>
+<body>
+<!-- footer -->
+
+
+
+<div class="row-new">
+  <div class="column-new-add" style="background-color:#aaa;">
+    <h2>Why Gemsclip?</h2>
+     <ul>
+        <li>Fair Price - We offer high quality work along with excellent support and customer service at a fair and reasonable price. We do our best to make sure you stay in budget and still get a great result.</li>
+        <li>Sales Channel - Online Platform (Gemsclip.com) & dedicated Key Account Managers</li>
+        <li>Post-sales Service - Acquiring Client Feedback. After-sales service for IT & electronic products & along with</li>
+        <li>Procurement - Sourcing products from one of our 1000+ merchants or from warehouse</li>
+    </ul>
+
+    <h2>A One Stop Shop</h2>
+     <ul>
+        <li>Users can navigate seamlessly through our site and acquire information about any product they are looking for</li>
+        <li>Our e-commerce platform offers buyers with a wide selection of products to choose from along with a hassle-free buying experience.</li>
+        <li>You'll find all your desired items with negotiable rate throughout gemsclip.com</li>
+        
+    </ul>
+  </div>
+  <div class="column-new-add" style="background-color:#bbb;">
+    <h2>Simplifying Online Procurement and Supplies</h2>
+     <ul>
+        <li>We are providing such a platform from where you can easily order your products within some click</li>
+        <li>Throughout your entire history you can take any decision of procurement of your company</li>
+        <li>Manage your multiple delivery locations from online platform even your products too.</li>
+       
+    </ul>
+
+    <h2>Choose What Suits Best for you!</h2>
+     <ul>
+        <li>Pick up everything suitable what you need best for your organization.</li>
+        <li>Minimize your cost of purchase by choosing our services and rest assured.</li>
+        <li>Compare our services to others to analyze what you're being benefited.</li>
+        <li>Payment - We receive Bank Accounts Transfer, electronic payments in different modes as well as offer the facility of cash on delivery (COD) to facilitate secure transactions.</li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item active">About us</li>
+                    <li class="list-group-item"><a href="about-gemsclip">About Gemsclip</a></li>
+                    <li class="list-group-item"><a href="gemsclip-team">Gemsclip Team</a></li>
+                    <li class="list-group-item"><a href="career">Career</a></li>
+                    <li class="list-group-item"><a href="contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item active"><a href="support">Support</a></li>
+                    <li class="list-group-item"><a href="return-policy">Return Policy</a></li>
+                    <li class="list-group-item"><a href="credit-policy">Credit Policy</a></li>
+                    <li class="list-group-item"><a href="terms-conditions">Terms & Conditions</a></li>
+                    <li class="list-group-item"><a href="privacy-policy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item active">MEDIA</li>
+                    <li class="list-group-item"><a href="news">News</a></li>
+                    <li class="list-group-item"><a href="publications">Publications</a></li>
+                    <li class="list-group-item active">Join Us On</li>
+                    <li class="list-group-item">
+                        <a href="#"><img   src="<?=$block->getViewFileUrl("images/media/fb-icon.png");?>"  alt="Facebook"></a>
+                        <a href="#"><img  src="<?=$block->getViewFileUrl("images/media/twitter-icon.png");?>"  alt="twitter"></a>
+                        <a href="#"><img   src="<?=$block->getViewFileUrl("images/media/linkedin-icon.png");?>"  alt="linkedin"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <p class="text-center">&copy; 2019 Gemsclip. All Rights Reserved.</p>
+    </div>
+
+</footer>
+<!--.footer-->
+</body>
+</html>

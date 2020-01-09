@@ -1,0 +1,54 @@
+body{
+	    color: #333;
+    font-family: 'Work Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
+    font-size: 1.4rem;
+}
+
+ 
+
+
+ 
+.block-search {
+    float: left;
+    padding-left: 60px;
+    position: relative;
+    width: 40%;
+    z-index: 4;
+}
+
+
+.minicart-wrapper .action.showcart {
+    white-space: nowrap;
+}
+
+
+.minicart-wrapper {
+    margin-top: 5px;
+}
+
+
+.minicart-wrapper {
+    margin-left: 13px;
+}
+
+
+.minicart-wrapper {
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+
+
+.navigation ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    background: 
+    black;
+    text-align: right;
+}

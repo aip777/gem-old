@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+          rel="stylesheet">
+    <!--.font-->
+    <!--font awesome -->
+    <link href="pub/media/gemsclip/css/all.css" rel="stylesheet">
+    <!--.font awesome -->
+
+</head>
+<style>
+    body {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        color: #707070;
+    }
+
+    header {
+        padding: 30px 0;
+        background: #f5f5f5;
+        background: url(<?=$block->getViewFileUrl("images/media/header-bg.png");?>)  center;
+        background-size: cover;
+    }
+
+    .navbar {
+        padding: 25px 60px;
+    }
+
+
+    .bg-transparent {
+        background-color: transparent !important;
+    }
+
+    @media (min-width: 768px) {
+        .navbar-expand-md {
+            -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+        }
+    }
+
+    .navbar {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .navbar-expand-md .navbar-toggler {
+        display: none;
+    }
+
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        cursor: pointer;
+    }
+
+    .navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background: no-repeat center center;
+        background-size: 100% 100%;
+    }
+
+    li.nav-item {
+        position: relative;
+        float: left;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        color: #ffffff;
+        margin-right: 10px;
+    }
+
+    @media (min-width: 768px) {
+        .navbar-expand-md .navbar-nav .nav-link {
+            padding-right: .5rem;
+            padding-left: .5rem;
+        }
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link i {
+        color: #8FC964;
+        margin-right: 5px;
+    }
+
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    @media (min-width: 768px) {
+        .navbar-expand-md .navbar-nav {
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+    }
+    .pull-right{
+        float: right;
+    }
+
+    .ml-auto, .mx-auto {
+        margin-left: auto !important;
+    }
+    button.nav-link.search-btn {
+        background: transparent;
+        border: 0;
+        position: relative;}
+
+    button.nav-link.search-btn:focus {
+        outline: 0;
+    }
+
+    div#searchDIV .form-control {
+        border-radius: 0;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+    [type=search] {
+        outline-offset: -2px;
+        -webkit-appearance: none;
+    }
+    div#searchDIV {
+        position: absolute;
+        right: 10px;
+        width: 280px;
+        padding: 10px;
+        background: rgba(143, 201, 100, 0.5);
+        display: none;}
+    div#searchDIV::before{
+        content: url(  <?=$block->getViewFileUrl("images/media/up-arrow.png");?>);
+        position: absolute;
+        top: -17px;
+        right: 15px;
+        opacity: 0.5;
+    }
+    div#searchDIV .form-group {
+        margin-bottom: 0;
+    }
+
+    div#searchDIV .form-control {
+        border-radius: 0;
+    }
+
+    div#searchDIV .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: transparent;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(143, 201, 100, 0);
+    }
+    .nav-link {
+        display: block;
+        padding: .5rem 1rem;
+    }
+    @media (min-width: 768px) {
+        .navbar-expand-md .navbar-nav .nav-link {
+            padding-right: .5rem;
+            padding-left: .5rem;
+        }
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        color: #ffffff;
+        margin-right: 10px;
+    }
+</style>
+<body>
+<!--header code goes here-->
+<header>
+    <nav class="navbar navbar-expand-md fixed-top bg-transparent">
+        <a class="navbar-brand" href="#"><img src=<?=$block->getViewFileUrl("images/media/logo.png");?> alt="logo"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-envelope"></i>Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-user"></i>Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="far fa-edit"></i>Become a member</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i>Cart </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-md fixed-top bg-transparent main-nav pull-right">
+        <div class="collapse navbar-collapse" id="navbarCollapse1">
+            <ul class="navbar-nav ml-auto">
+
+                
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">ALL CATEGORIES  <?php echo $this->getChildHtml('minicart') ?> </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">STATIONERY</a>
+                </li>
+
+<!--                <li class="nav-item">-->
+<!--                    --><?php
+//                    echo $this->getLayout()->createBlock("Magento\Theme\Block\Html\Topmenu")->setTemplate("Magento_Theme::html/topmenu.phtml")->toHtml();
+//                    ?>
+<!--                </li>-->
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CLEANING STUFF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PANTRY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">IT & ELECTRONICS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SAFETY EQUIPMENT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="far fa-heart"></i>My Product</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link search-btn" onclick="mySearchFunction()"><i class="fas fa-search"></i>
+                    </button>
+
+                        <div id="searchDIV">
+                            <?php
+                            /**
+                             * Copyright © 2015 Magento. All rights reserved.
+                             * See COPYING.txt for license details.
+                             */
+
+                            // @codingStandardsIgnoreFile
+                            ?>
+                            <?php
+                            /** @var $block \Magento\Framework\View\Element\Template */
+                            /** @var $helper \Magento\Search\Helper\Data */
+                            $helper = $this->helper('Magento\Search\Helper\Data');
+                            ?>
+                            <div class="block block-search">
+                                <div class="block block-content">
+                                    <form class="form minisearch" id="search_mini_form-mobile" action="<?php /* @escapeNotVerified */ echo $helper->getResultUrl() ?>" method="get">
+                                        <div class="field search">
+                                            <label class="label" for="search" data-role="minisearch-label">
+                                                <span><?php /* @escapeNotVerified */ echo __('Search'); ?></span>
+                                            </label>
+                                            <div class="control">
+                                                <input id="search"
+                                                       data-mage-init='{"quickSearch":{
+                                    "formSelector":"#search_mini_form-mobile",
+                                    "url":"<?php /* @escapeNotVerified */ echo $block->getUrl('search/ajax/suggest'); ?>",
+                                    "destinationSelector":"#search_autocomplete-mobile"}
+                               }'
+                                                       type="text"
+                                                       name="<?php /* @escapeNotVerified */ echo $helper->getQueryParamName() ?>"
+                                                       value="<?php /* @escapeNotVerified */ echo $helper->getEscapedQueryText() ?>"
+                                                       placeholder="<?php /* @escapeNotVerified */ echo __('Search here...'); ?>"
+                                                       class="input-text"
+                                                       maxlength="<?php /* @escapeNotVerified */ echo $helper->getMaxQueryLength();?>"
+                                                       role="combobox"
+                                                       aria-haspopup="false"
+                                                       aria-autocomplete="both"
+                                                       autocomplete="off"/>
+                                                <div id="search_autocomplete-mobile" class="search-autocomplete"></div>
+                                                <?php echo $block->getChildHtml() ?>
+                                            </div>
+                                        </div>
+                                        <!--                                <div class="actions">-->
+                                        <!--                                    <button type="submit"-->
+                                        <!--                                            title="--><?php //echo $block->escapeHtml(__('Search')) ?><!--"-->
+                                        <!--                                            class="nav-link" href="#"><i class="fas fa-search"></i>-->
+                                        <!--                                        <span>--><?php ///* @escapeNotVerified */ echo __('Search'); ?><!--</span>-->
+                                        <!---->
+                                        <!--                                    </button>-->
+                                        <!--                                </div>-->
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div>&nbsp;</div>
+</header>
+<!--.header code goes here-->
+<script src="pub/media/gemsclip/js/script.js"></script>
+</body>
+</html>

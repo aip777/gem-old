@@ -1,0 +1,16 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <head>
+        <css src="css/source/_theme.css" />
+
+    </head>
+
+    <body>
+
+        <referenceContainer name="footer">
+            <block class="Magento\Framework\View\Element\Template" name="footer-new" template="Magento_Customer::footer.phtml"></block>
+        </referenceContainer>
+
+
+    </body>
+</page>

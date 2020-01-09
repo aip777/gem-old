@@ -1,0 +1,81 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <head>
+        <css src="css/source/_theme.css" rel="stylesheet" type="text/css" />
+        <css src="css/source/main_css.css" rel="stylesheet" type="text/css" />
+
+        <css src="css/source/login.css" />
+        <css src="css/source/header.css" />
+        <css src="css/styles-l.css" />
+
+
+        <!-- Remove external resources -->
+       <!--  <remove src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+        <remove src="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"/>
+        <remove src="pub/media/assets/css/all.css" />
+        <remove src="pub/media/assets/css/style.css" /> -->
+
+        <!-- <remove src="https://code.jquery.com/jquery-3.3.1.slim.min.js" />
+        <remove src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" />
+        <remove src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" />
+        <remove src="pub/media/assets/js/script.js" /> -->
+
+
+
+    </head>
+
+    <body>
+
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/media/logo.png</argument>
+                <argument name="logo_img_width" xsi:type="number">189</argument>
+                <argument name="logo_img_height" xsi:type="number">64</argument>
+
+            </arguments>
+        </referenceBlock>
+        <referenceBlock name="advanced-search-link" remove="true"/>
+        <referenceBlock name="report.bugs" remove="true" />
+        <referenceBlock name="footer_links" remove="true"/>
+        <referenceBlock name="form.subscribe" remove="true" />
+        <referenceBlock name="copyright" remove="true"/>
+
+
+        <move element="navigation.sections" destination="header-wrapper" />
+        <move element="minicart" destination="header.panel"  before="-" />
+        <referenceBlock name="top.search" remove="true" />
+
+
+
+
+            <referenceContainer name="header.links">
+                <block class="Magento\Framework\View\Element\Html\Link" name="custom-link">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="true">custom link</argument>
+                    <argument name="path" xsi:type="string" translate="true">customlink</argument>
+                </arguments>
+                </block>
+            </referenceContainer>
+
+
+
+
+ 
+
+
+
+
+
+
+        <referenceContainer name="footer">
+
+            <block class="Magento\Framework\View\Element\Template" name="footer-two" template="Magento_Theme::footer-main.phtml"></block>
+        </referenceContainer>
+
+
+
+
+
+
+    </body>
+</page>

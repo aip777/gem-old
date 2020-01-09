@@ -1,0 +1,38 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <head>
+        
+
+    </head>
+
+    <body>
+
+        <referenceBlock name="form.subscribe" remove="true"/>
+        <referenceBlock name="footer_links" remove="true"/>
+        <referenceBlock name="footer.newsletter" remove="true"/>
+
+
+                <referenceBlock name="customer-account-navigation-downloadable-products-link" remove="true"/>
+
+
+          		<referenceBlock name="customer-account-navigation-newsletter-subscriptions-link" remove="true"/>
+
+          		<referenceBlock name="customer-account-navigation-billing-agreements-link" remove="true"/>
+
+
+
+        <!-- <referenceBlock name="head.additional" remove="true"/> -->
+<!--        <referenceBlock name="footer" remove="true"/>-->
+
+<!--        <referenceContainer name="main">-->
+<!--            <block class="Magento\Framework\View\Element\Template" name="footer-customer" template="Magento_Customer::footer-main.phtml"></block>-->
+<!--        </referenceContainer>-->
+
+
+		<!-- <referenceBlock name="head.additional">
+            <block class="Magento\Framework\View\Element\Template" name="frontuser" template="Magento_Theme::main-header.phtml"/>
+        </referenceBlock> -->
+
+
+    </body>
+</page>

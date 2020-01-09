@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="css/source/_extend.less" />
+
+    </head>
+    <body>
+
+        <!--<referenceContainer name="main">-->
+            <!--<container name="custom.header" htmlClass="headerSection" htmlTag="div">-->
+                <!--<block class="Magento\Framework\View\Element\Template" name="navigation.sections" before="-" template="Magento_Theme::sections.phtml">-->
+
+                <!--</block>-->
+            <!--</container>-->
+        <!--</referenceContainer>-->
+
+
+<!--        <referenceContainer name="main">-->
+<!--            <block class="Magento\Framework\View\Element\Template" name="slider" template="Magento_Cms::slider.phtml"></block>-->
+<!--        </referenceContainer>-->
+
+<!--        <referenceContainer name="main">-->
+<!--            <block class="Magento\Framework\View\Element\Template" name="band-new-new" template="Magento_Cms::band.phtml"></block>-->
+<!--        </referenceContainer>-->
+
+<!--        <referenceContainer name="main">-->
+<!--            <block class="Magento\Framework\View\Element\Template" name="videos" template="Magento_Cms::videos.phtml"></block>-->
+<!--        </referenceContainer>-->
+
+
+<!--        <referenceContainer name="main">-->
+<!--            <block class="Magento\Framework\View\Element\Template" name="rfq" template="Magento_Cms::rfq.phtml"></block>-->
+<!--        </referenceContainer>-->
+
+
+
+
+        <referenceContainer name="main">
+
+            <block class="Magento\Framework\View\Element\Template" name="indexx" template="Magento_Theme::indexx.phtml"></block>
+        </referenceContainer>
+
+
+
+
+    </body>
+</page>
